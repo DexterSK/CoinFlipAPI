@@ -14,7 +14,7 @@ public interface CoinFlipAPI
      * @param provider The economy provider
      * @param requiredPlugin The plugin required
      */
-	void registerEconomyProvider(EconomyProvider paramEconomyProvider, String paramString);
+	void registerEconomyProvider( EconomyProvider provider, String requiredPlugin );
   
 	/**
      * Fetch player data
